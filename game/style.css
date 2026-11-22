@@ -181,7 +181,11 @@ body {
   font-size: 18px; font-weight: bold; color: #fff; background: var(--card-color);
   border: 2px solid #fff; border-radius: 50%; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
 }
-.card-glyph { font-size: 15px; color: var(--card-color); text-align: left; height: 18px; }
+.card-glyph {
+  position: absolute; top: 7px; right: 10px;
+  font-size: 18px; color: var(--card-color); height: 20px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
 .card-name { font-size: 15px; font-weight: bold; margin: 2px 0 4px; min-height: 36px; }
 .card-art { font-size: 44px; line-height: 1; margin: 4px 0; filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.6)); }
 .card-text { font-size: 12.5px; line-height: 1.35; color: #d8cdb4; min-height: 48px; }
